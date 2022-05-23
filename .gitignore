@@ -1,0 +1,18 @@
+# 通用: 系统
+.DS_Store
+
+# 通用: 代码和编辑器
+*.log
+*~
+.vscode
+*#
+
+
+# python
+.ipynb_checkpoints/
+*/__pycache__
+.pyc
+
+# 个人习惯
+cc/
+/archive

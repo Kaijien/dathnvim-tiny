@@ -26,3 +26,15 @@ map <leader>wK :q!<CR>
 map R :source $MYVIMRC<CR>
 
 nnoremap <leader>fei :e $MYVIMRC<cr>
+
+
+" change vim keymap d and x 
+" 设置vim 的剪切删除更符合直觉, x是剪切 , d s 仅删除不进入匿名寄存器, XY 进入系统剪切板
+nnoremap x d
+nnoremap d "_d
+nnoremap X "+d
+nnoremap Y "+Y
+nnoremap s "_s
+
+nnoremap <leader>o <C-^>
+
